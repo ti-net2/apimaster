@@ -18,8 +18,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 
+	"github.com/ti-net2/apimaster/pkg/swaggerdoc/options"
 	"k8s.io/klog"
-	"github.com/seanchann/apimaster/pkg/swaggerdoc/options"
 )
 
 //GenerateDoc generate swagger doc by options

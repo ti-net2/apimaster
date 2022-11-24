@@ -19,4 +19,4 @@ limitations under the License.
 
 // +groupName=abac.authorization.kubernetes.io
 
-package v0 // import "github.com/seanchann/apimaster/pkg/apis/abac/v0"
+package v0 // import "github.com/ti-net2/apimaster/pkg/apis/abac/v0"

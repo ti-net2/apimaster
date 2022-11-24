@@ -17,7 +17,7 @@ limitations under the License.
 package v0
 
 import (
-	"github.com/seanchann/apimaster/pkg/apis/abac"
+	"github.com/ti-net2/apimaster/pkg/apis/abac"
 	"k8s.io/apimachinery/pkg/conversion"
 )
 

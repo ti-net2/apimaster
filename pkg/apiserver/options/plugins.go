@@ -21,8 +21,8 @@ package options
 // given binary target.
 import (
 	// Admission policies
-	"github.com/seanchann/apimaster/plugin/pkg/admission/admit"
-	"github.com/seanchann/apimaster/plugin/pkg/admission/deny"
+	"github.com/ti-net2/apimaster/plugin/pkg/admission/admit"
+	"github.com/ti-net2/apimaster/plugin/pkg/admission/deny"
 
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apiserver/pkg/admission"

@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/seanchann/apimaster/pkg/api/legacyscheme"
+	"github.com/ti-net2/apimaster/pkg/api/legacyscheme"
 
 	"sort"
 

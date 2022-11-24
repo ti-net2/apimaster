@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/seanchann/apimaster/pkg/apis/abac"
-	"github.com/seanchann/apimaster/pkg/apis/abac/v1beta1"
+	"github.com/ti-net2/apimaster/pkg/apis/abac"
+	"github.com/ti-net2/apimaster/pkg/apis/abac/v1beta1"
 	"k8s.io/apiserver/pkg/authentication/user"
 )
 

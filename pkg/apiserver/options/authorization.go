@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/seanchann/apimaster/pkg/apiserver/authorizer"
-	authzmodes "github.com/seanchann/apimaster/pkg/apiserver/authorizer/modes"
+	"github.com/ti-net2/apimaster/pkg/apiserver/authorizer"
+	authzmodes "github.com/ti-net2/apimaster/pkg/apiserver/authorizer/modes"
 	"k8s.io/apimachinery/pkg/util/sets"
 )
 
@@ -38,7 +38,7 @@ type BuiltInAuthorizationOptions struct {
 
 func NewBuiltInAuthorizationOptions() *BuiltInAuthorizationOptions {
 	return &BuiltInAuthorizationOptions{
-		Modes: []string{authzmodes.ModeAlwaysAllow},
+		Modes:                       []string{authzmodes.ModeAlwaysAllow},
 		WebhookCacheAuthorizedTTL:   5 * time.Minute,
 		WebhookCacheUnauthorizedTTL: 30 * time.Second,
 	}

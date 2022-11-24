@@ -15,4 +15,4 @@ limitations under the License.
 */
 
 // Package authorizer contains implementations for pkg/auth/authorizer interfaces
-package authorizer // import "github.com/seanchann/apimaster/plugin/pkg/auth/authorizer"
+package authorizer // import "github.com/ti-net2/apimaster/plugin/pkg/auth/authorizer"

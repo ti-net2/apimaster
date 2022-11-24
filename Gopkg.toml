@@ -44,7 +44,7 @@
 # [[constraint]]
 #   branch = "release-1.11"
 #   name = "k8s.io/apiserver"
-#   source = "github.com/seanchann/apiserver"
+#   source = "github.com/ti-net2/apiserver"
 
 # [[constraint]]
 #   name = "k8s.io/client-go"

@@ -23,8 +23,8 @@ import (
 	"github.com/spf13/pflag"
 	"k8s.io/klog"
 
-	kubeauthenticator "github.com/seanchann/apimaster/pkg/apiserver/authenticator"
-	authzmodes "github.com/seanchann/apimaster/pkg/apiserver/authorizer/modes"
+	kubeauthenticator "github.com/ti-net2/apimaster/pkg/apiserver/authenticator"
+	authzmodes "github.com/ti-net2/apimaster/pkg/apiserver/authorizer/modes"
 
 	"k8s.io/apimachinery/pkg/util/sets"
 	genericapiserver "k8s.io/apiserver/pkg/server"

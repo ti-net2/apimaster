@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/seanchann/apimaster/pkg/apiserver/authorizer/modes"
-	"github.com/seanchann/apimaster/pkg/auth/authorizer/abac"
+	"github.com/ti-net2/apimaster/pkg/apiserver/authorizer/modes"
+	"github.com/ti-net2/apimaster/pkg/auth/authorizer/abac"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apiserver/pkg/authorization/authorizer"

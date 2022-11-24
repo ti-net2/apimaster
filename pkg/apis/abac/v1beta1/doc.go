@@ -15,10 +15,10 @@ limitations under the License.
 */
 
 // +k8s:deepcopy-gen=package
-// +k8s:conversion-gen=github.com/seanchann/apimaster/pkg/apis/abac
+// +k8s:conversion-gen=github.com/ti-net2/apimaster/pkg/apis/abac
 // +k8s:openapi-gen=true
 // +k8s:defaulter-gen=TypeMeta
 
 // +groupName=abac.authorization.kubernetes.io
 
-package v1beta1 // import "github.com/seanchann/apimaster/pkg/apis/abac/v1beta1"
+package v1beta1 // import "github.com/ti-net2/apimaster/pkg/apis/abac/v1beta1"

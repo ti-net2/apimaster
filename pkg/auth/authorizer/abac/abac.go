@@ -28,9 +28,9 @@ import (
 
 	"k8s.io/klog"
 
-	"github.com/seanchann/apimaster/pkg/apis/abac"
-	_ "github.com/seanchann/apimaster/pkg/apis/abac/latest"
-	"github.com/seanchann/apimaster/pkg/apis/abac/v0"
+	"github.com/ti-net2/apimaster/pkg/apis/abac"
+	_ "github.com/ti-net2/apimaster/pkg/apis/abac/latest"
+	"github.com/ti-net2/apimaster/pkg/apis/abac/v0"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/authentication/user"
